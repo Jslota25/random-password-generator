@@ -48,7 +48,11 @@ function generatePassword() {
       }
     }
 
-    
+    if (upper) {
+      for(var i = 0; i < upperChar.length; i++) {
+        pwChar.push(upperChar.charAt(i));
+      }
+    }
 
   }
 
