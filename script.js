@@ -39,4 +39,17 @@ function generatePassword() {
     var upperChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     var numberChar = "0123456789";
     var specChar = "!@#$%^&*()";
+    var pwChar = [];
+  
+    //If statements for password character criteria
+    if (lower) {
+      for(var i = 0; i < lowerChar.length; i++) {
+        pwChar.push(lowerChar.charAt(i));
+      }
+    }
+
+    
+
   }
+
+
