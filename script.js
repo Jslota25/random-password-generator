@@ -65,6 +65,18 @@ function generatePassword() {
         pwChar.push(specChar.charAt(i));
       }
     }
+
+    console.log(pwChar);
+
+    //Generate and print password
+    var password = "";
+
+    while(password.length < lengthValue) {
+      password += pwChar[Math.floor(Math.random() * pwChar.length)];
+    }
+
+    console.log(password);
+    return password;
   }
 
 
