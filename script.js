@@ -28,3 +28,15 @@ function generatePassword() {
         lengthValue = prompt(length);
       }
     }
+
+    //Password character criteria
+    var lower = confirm("Do you want lower case letters?");
+    var upper = confirm("Do you want upper case letters?");
+    var number = confirm("Do you want numbers?");
+    var special = confirm("Do you want special characters?");
+
+    var lowerChar = "abcdefghijklmnopqrstuvwxyz";
+    var upperChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    var numberChar = "0123456789";
+    var specChar = "!@#$%^&*()";
+  }
